@@ -1,0 +1,29 @@
+{
+  "name": "js-design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashiq-r31/js-design-pattern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashiq-r31/js-design-pattern/issues"
+  },
+  "homepage": "https://github.com/ashiq-r31/js-design-pattern#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "koa": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0"
+  }
+}
