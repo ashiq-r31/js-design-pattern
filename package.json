@@ -21,7 +21,9 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2"
   },
   "devDependencies": {
     "babel-register": "^6.26.0",
