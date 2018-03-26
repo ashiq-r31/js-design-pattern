@@ -10,6 +10,9 @@ module.exports = {
     publicPath: 'scripts/',
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['.jsx', '.js', '.json']
+  },
   module: {
     rules: [
       {
@@ -23,7 +26,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loaders: ['style-loader','css-loader','postcss-loader']
+        loaders: ['style-loader', 'css-loader', 'postcss-loader']
       },
       {
         test: /\.html$/,
